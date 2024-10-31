@@ -1,0 +1,51 @@
+<!-- <div class="back2">
+   
+</div> -->
+
+<div class="back3">
+  <div class="container about">
+    <div class="row">
+        <div class="info">
+            <div class="about__header">
+                <h2>No,1 Night Club</h2>
+            </div>
+            <div class="about__name">
+                ABOUT THE CLUB
+            </div>
+            <div class="about__info">
+                Lorem ipsum dolor sit amet consectetur,  adipisicing elit. Vel qui vitae quam repellendus delectus deleniti?
+            </div>
+        </div>
+       
+    </div>
+</div>
+<app-services></app-services>
+ 
+
+    <div class="events" id="events">
+      <div class="container">
+        <div class="row">
+           <div class="events__days">
+            
+            <a class="days active"  routerLink="friday">Friday</a>
+           
+            <a class="days"  routerLink="/saturday">Saturday </a>
+            
+            <a class="days"  routerLink="/sunday">Sunday </a>
+            
+           </div>
+           <div class="router">
+            <router-outlet></router-outlet>
+           </div>
+          
+        </div>
+      </div>
+     </div>
+   <div class="gallery" id="gallery">
+    <app-gallery [galleryData] = "data" [showCount]="true">
+      
+    </app-gallery>
+   </div>
+  
+</div>
+

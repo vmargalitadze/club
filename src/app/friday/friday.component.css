@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/quentin');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.top-left {
+  position: absolute;
+  top: 20%;
+  left: 60px;
+  width: 350px;
+  color: white;
+}
+
+.date{
+  font-size: 13px;
+  margin: 0 0 35px;
+  color: #ff4e5b;
+}
+
+.container {
+  position: relative;
+  
+  color: white;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 100%;
+  opacity: .5;
+  border: 5px solid #ff4e5b;
+}
+
+  .header {
+    font-size: 30px;
+    color: #ff4e5b;
+    font-family: 'Quentin', sans-serif;
+  }
+
+  .body {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .p {
+    font-size: 14px;
+    margin: 0px 0px 14px;
+  }

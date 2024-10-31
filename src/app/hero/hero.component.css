@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/quentin');
+
+.back1 {
+    background: url(../../assets/long-truong-Y5PXVs1LpY4-unsplash.jpg);
+    height: 100vh;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+   
+   }
+   
+   .welcome {
+     
+       color: #ffffff;
+       font-family: 'Quentin', sans-serif;
+       font-size: 30px;
+       font-weight: 700px;
+       letter-spacing: 10px;
+       text-transform: uppercase;
+       font-weight: 700;
+       text-shadow: 0 0 26px #ff4e5b,0 0 26px rgba(185,20,94,.52);
+   }
+
+   .club {
+    font-weight: 400;
+    letter-spacing: 5.96px;
+    margin: 0 0 20px;
+    font-size: 140px;
+    color: #ffffff;
+   }
